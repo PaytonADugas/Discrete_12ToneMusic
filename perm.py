@@ -1,5 +1,6 @@
 import time
 
+
 # N is the number of notes or elements we want in our permutations
 # S_n is the list of all permutations that recursively added to
 # X is the list of perms for (n-1) elements which is then recursively added to S_n
