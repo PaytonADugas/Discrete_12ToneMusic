@@ -1,10 +1,9 @@
 import time
 
-
 # N is the number of notes or elements we want in our permutations
-# S_n is the list of all permutations that recursively added to
+# S_n is the list of all permutations up to whatever n is in the current recursive state
 # X is the list of perms for (n-1) elements which is then recursively added to S_n
-# This recursive function starts at n and finishes at n = 0
+# This recursive function starts at n = n and finishes at n = 0
 def listPerms_nTo0(n):
     if(n == 0):
         return [[0]]
